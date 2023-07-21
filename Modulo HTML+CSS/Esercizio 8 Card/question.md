@@ -1,5 +1,5 @@
+Starting from the card that you created in the HTML exercise, add the CSS properties. Look at the layout in the example.png.
 
-Replicate the html structure of the card in the png file, without applying CSS properties.
+**Suggestion**:
 
-**Suggestion**
-Try to use the html article tag in order to replicate the card's structure.
+Try to make the pic inside the card responsive, so that it fits its container.
