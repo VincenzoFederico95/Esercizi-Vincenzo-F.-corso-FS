@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(59, 47, 47);
+}
+nav {
+  background-color: rgb(22, 37, 37);
+  width: 700px;
+  height: 20px;
+  padding: 25px;
+  align-items: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 0px solid white;
+  color: white
+}
+
+a {
+  color: white;
+}
+
+
+.white {
+  color: white;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grey {
+  color: grey;
+  margin-left: 5px;
+}
+
+.disabled{
+    color: rgb(82, 78, 78);
+}
+
+div{
+
+  margin-left: 100px;
+  display: inline;
+
+}
+
+.input{
+  height: 30px;
+  border-radius: 5px;
+  border-color: green;
+  padding: 20px;
+
+}
+
+input[type="submit"] {
+  border-color: green
+}
+
+input[type="submit"] {
+  color: green;
+  background-color: rgb(22, 37, 37);
+}
+
+
+div > input:last-child {
+  background-color: transparent;
+  color: rgb(25, 167, 14);
+  border: 1px solid rgb(25, 167, 14);
+  position: relative;
+  border-color: green;
+}
+
+input:last-child:hover{
+    background-color: greenyellow;
+}
+
