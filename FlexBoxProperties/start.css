@@ -1,16 +1,15 @@
 body {
     width: 60em;
-    margin: ;
+    margin:;
     display: flex;
-    
-    gap: 60px;
+    gap: 30px;
   }
 
   #yellow {
     text-align: center;
     order: 1;
     height: 100vh;
-    width: 18%;
+    width: 40%;
     background-color: #ffff92;
   }
 
@@ -22,7 +21,7 @@ body {
 
   ul {
     padding: 0;
-    
+  
   }
 
   li {
@@ -37,18 +36,21 @@ body {
   #yellow > ul > li {
   list-style: none;
   display: block;
+
 }
 
 #red {
     background-color: #ff919c;
     height: 100vh;
-    width: 18%;
+    width: 40%;
     order: 2;
     text-align: center;
+    
   }
 
   #red > ul > li {
   list-style: none;
+  
 }
 #red > ul > li {
     list-style: none;
@@ -57,7 +59,7 @@ body {
   #green {
     background-color: #8ffda7;
     height: 100vh;
-    width: 14%;
+    width: 30%;
     order: 3;
     text-align: center;
   }
@@ -67,12 +69,13 @@ body {
     width: 90%;
     height: 100vh;
     order: 4;
-    text-align: center;
+    text-align:center
+    
   }
   
   #blue {
     background-color: #98d2ff;
-    width: 13%;
+    width: 25%;
     height: 100vh;
     order: 5;
     text-align: center;
