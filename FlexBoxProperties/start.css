@@ -22,11 +22,12 @@ body {
 
   ul {
     padding: 0;
+    
   }
 
   li {
     background-color: white;
-    padding: 0.1em;
+    padding:0em;
     display: block;
     margin: 1em;
     width: 50px;
@@ -63,7 +64,7 @@ body {
 
   #orange {
     background-color: #ffc788;
-    width: 60%;
+    width: 90%;
     height: 100vh;
     order: 4;
     text-align: center;
