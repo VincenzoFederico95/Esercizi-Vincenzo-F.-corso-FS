@@ -9,3 +9,5 @@ const person = { id, ...personInfo } = {
   };
   
   console.log(id, personInfo);
+
+  
